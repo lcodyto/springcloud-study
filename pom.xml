@@ -28,6 +28,8 @@
 
 		<module>server</module>
 
+		<module>config-server-git</module>
+
 	</modules>
 
 </project>
