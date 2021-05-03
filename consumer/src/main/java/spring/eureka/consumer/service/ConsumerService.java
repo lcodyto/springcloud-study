@@ -80,15 +80,4 @@ public class ConsumerService {
         MultipartFile multi = new CommonsMultipartFile(fileItem);
         return uploadService.handleFileUpload(multi);
     }
-
-    @Resource
-    private HystrixService hystrixService;
-
-    @GetMapping("/consumer-hystrix")
-    public String dcHystrix(){
-        return hystrixService.hystrix();
-    }
-
-
-
 }

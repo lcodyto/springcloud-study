@@ -6,7 +6,5 @@ spring:
       server:
         git:
           uri: https://gitee.com/qsdy/config-repo-demo/
-          username: 874289852@qq.com
-          password: a5481087
 server:
   port: 8003

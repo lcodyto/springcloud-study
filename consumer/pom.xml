@@ -45,17 +45,17 @@
             <artifactId>spring-cloud-starter-ribbon</artifactId>
         </dependency>
 
+		<!--spring-cloud-config-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+
         <!--feign 集成-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
-
-		<!--hystrix-->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-hystrix</artifactId>
-		</dependency>
 
         <!--文件上传-->
         <dependency>

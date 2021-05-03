@@ -20,7 +20,6 @@
 		<version>1.5.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
 	<modules>
 		<module>consumer</module>
 

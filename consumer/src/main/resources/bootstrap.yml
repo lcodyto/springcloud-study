@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-consumer
+  cloud:
+    config:
+      uri: http://localhost:8003/
+      profile: default
+      label: master
+
+server:
+  port: 8002
