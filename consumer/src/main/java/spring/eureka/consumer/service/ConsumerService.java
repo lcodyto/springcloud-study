@@ -61,6 +61,13 @@ public class ConsumerService {
         return dcClient.consumer();
     }
 
+    @Resource
+    private HystriService hystriService;
+
+    @GetMapping("/consumer-hystri")
+    public String dcHystri() {
+        return hystriService.consumer();
+    }
 
     @Resource
     private UploadService uploadService;

@@ -6,6 +6,6 @@ spring:
     name: config-eureka-server
   cloud:
     config:
-      uri: http://localhost:8003/
+      uri: http://git.qiangshuidiyu.xin
       profile: default
       label: master

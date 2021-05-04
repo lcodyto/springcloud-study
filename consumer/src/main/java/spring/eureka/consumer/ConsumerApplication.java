@@ -2,6 +2,7 @@ package spring.eureka.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
@@ -9,8 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @EnableFeignClients
-@SpringBootApplication
-@EnableDiscoveryClient
+@SpringCloudApplication
 public class ConsumerApplication {
 
     @Bean("restTemplateRibbon")
